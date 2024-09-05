@@ -1,0 +1,61 @@
+# Ignore node modules
+node_modules/
+
+# Ignore Hardhat files
+.cache/
+artifacts/
+build/
+coverage/
+
+# Ignore coverage output
+coverage/
+coverage.json
+coverage-final.json
+
+# Ignore environment variables and config
+.env
+.env.local
+.env.*.local
+
+# Ignore compiled contracts and other auto-generated files
+*.sol.js
+*.sol.js.map
+*.tsbuildinfo
+
+# Ignore log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore Truffle build artifacts
+build/
+
+# Ignore Remix IDE files
+remixd.sock
+
+# Ignore Slither output
+slither.db.json
+slither-report.json
+
+# Ignore gas reporter output
+gasReporterOutput.json
+
+# Ignore Docker files
+docker-compose.yml
+
+# Ignore DS_Store files on macOS
+.DS_Store
+
+# Ignore lock files
+package-lock.json
+yarn.lock
+
+# Ignore test coverage folders/files
+coverage/
+
+# Ignore flattening scripts/files
+*.flattened.sol
